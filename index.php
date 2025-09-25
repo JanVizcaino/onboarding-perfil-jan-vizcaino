@@ -1,14 +1,8 @@
 <?php
-$precio = 10;
+require_once __DIR__ . '/includes/header.php';
 ?>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <p><?php echo $precio; ?></p>
-</body>
-</html>
+<main class="max-w-3xl mx-auto p-6">
+  <p>Contenido de tu página de onboarding...</p>
+</main>
+<?php
+require_once __DIR__ . '/includes/footer.php' ?>;

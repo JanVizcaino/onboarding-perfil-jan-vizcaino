@@ -1,0 +1,41 @@
+/* assets/css/input.css */
+
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@600;700&display=swap');
+
+/* importa Tailwind (v4 usa @import "tailwindcss") */
+@import "tailwindcss";
+
+/* Theme CSS-first: define variables y tokens */
+@theme {
+  /* colores como tokens — puedes usar cualquier espacio de color (oklch, hsl, hex...) */
+  --color-primary: #0f766e;
+  --color-secondary: #06b6d4;
+  --color-tertiary: #f59e0b;
+
+  --text-primary: #0f172a;
+  --muted: #64748b;
+  --bg: #ffffff;
+  --card: #f8fafc;
+
+  /* tipografías (usa los nombres tal cual aparecen en Google Fonts) */
+  --font-sans: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-heading: Poppins, var(--font-sans);
+}
+
+/* Base layer: aplica fuentes y colores por defecto */
+@layer base {
+  html, body {
+    font-family: var(--font-sans);
+    background: var(--bg);
+    color: var(--text-primary);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,h2,h3,h4 {
+    font-family: var(--font-heading);
+    color: var(--color-primary);
+  }
+}
+

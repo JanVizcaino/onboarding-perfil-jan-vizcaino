@@ -1,0 +1,29 @@
+{
+  "name": "onboarding-perfil-nombre-apellido",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  "scripts": {
+    "watch": "npx @tailwindcss/cli -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JanVizcaino/onboarding-perfil-jan-vizcaino.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JanVizcaino/onboarding-perfil-jan-vizcaino/issues"
+  },
+  "homepage": "https://github.com/JanVizcaino/onboarding-perfil-jan-vizcaino#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.13"
+  },
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.13"
+  }
+}

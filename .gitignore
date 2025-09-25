@@ -1,6 +1,14 @@
 # Sistema
 .DS_Store
 Thumbs.db
+
 # Logs / temporales
 *.log
 *.tmp
+
+# Node modules
+node_modules/
+
+# Tailwind
+assets/css/output.css      # CSS compilado
+**/.tailwind-cache/         # Caché que genera Tailwind
