@@ -10,8 +10,10 @@
   <header class="p-4 border-b">
     <nav class="max-w-3xl mx-auto flex items-center justify-between">
       <div class="font-heading text-lg">Mi Perfil</div>
-      <div><!-- nav -->
-            
+      <div>
+            <?php
+            require_once __DIR__ . '/tabs.php';
+            ?>
       </div>
     </nav>
   </header>
