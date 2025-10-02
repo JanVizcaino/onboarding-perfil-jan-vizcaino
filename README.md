@@ -21,7 +21,7 @@ Características principales:
 
 ## Estructura de carpetas
 ```
-/project-root
+/onboarding-perfil-jan-vizcaino
 ├─ includes/
 │  ├─ header.php
 │  ├─ footer.php
@@ -34,8 +34,20 @@ Características principales:
 │  ├─ part5-event.php
 │  └─ part6-travel.php
 ├─ assets/
+|  ├─ css/input.css
 │  ├─ css/output.css
 │  └─ js/tabs.js
+├─ screenshots/
+|  └─ event.png
+|  ├─ menu.png
+|  ├─ movies.png
+|  ├─ musica.png
+|  ├─ perfil.png
+|  └─ travel.png
+|  
+├─ .gitignore
+├─ package-lock.json
+├─ package.json
 ├─ index.php
 └─ README.md
 ```
