@@ -15,7 +15,7 @@ Características principales:
   - Menú favorito
   - Coste de eventos
   - Próximo viaje
-- Preparado para **despliegue local** usando XAMPP o Docker.
+- Preparado para **despliegue local** usando XAMPP.
 
 ---
 
@@ -56,28 +56,7 @@ Características principales:
 1. Descargar e instalar [XAMPP](https://www.apachefriends.org/index.html).
 2. Colocar la carpeta del proyecto dentro de `C:\xampp\htdocs\` (o equivalente).
 3. Abrir **XAMPP Control Panel** y arrancar **Apache**.
-4. Abrir navegador y acceder a `http://localhost/nombre-del-proyecto/`.
-
-### Opción 2: Docker
-1. Crear un `Dockerfile` en la raíz del proyecto:
-
-```dockerfile
-FROM php:8.2-apache
-COPY . /var/www/html/
-RUN docker-php-ext-install mysqli pdo pdo_mysql
-EXPOSE 80
-```
-
-2. Construir y ejecutar el contenedor:
-
-```bash
-docker build -t perfil-web .
-docker run -p 8080:80 perfil-web
-```
-
-3. Abrir navegador y acceder a `http://localhost:8080`.
-
----
+4. Abrir navegador y acceder a `http://localhost/onboarding-perfil-jan-vizcaino/`.
 
 ## Uso
 
@@ -114,12 +93,3 @@ _Resumen de costes de inscripción y taller adicional con total calculado autom�
 _Detalla el destino y duración del viaje con estilo minimalista._
 
 ---
-
-## Contribuciones
-Se aceptan pull requests y mejoras.  
-Sugerencias de diseño, optimización de código y nuevas secciones son bienvenidas.
-
----
-
-## Licencia
-Este proyecto es **open-source** bajo la licencia **MIT**.
