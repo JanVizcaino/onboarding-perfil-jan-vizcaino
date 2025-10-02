@@ -1,8 +1,8 @@
 <?php
 
 ?>
-  <footer class="mt-8 p-4 border-t">
-    <div class="max-w-3xl mx-auto text-sm text-muted">© <?= date('Y') ?> Jan Vizcaíno</div>
+  <footer class="mt-8 p-4 bg-white/50 flex-none">
+    <div class="mx-auto text-sm text-slate-500 px-4 sm:px-6">© <?= date('Y') ?> Jan Vizcaíno</div>
   </footer>
 </body>
 </html>
